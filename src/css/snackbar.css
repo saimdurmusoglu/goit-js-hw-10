@@ -1,0 +1,93 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 360px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+}
+
+.form input[type='number'] {
+  width: 360px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+}
+
+.form fieldset {
+  width: 360px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.form legend {
+  width: 45px;
+  height: 24px;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+}
+
+.form fieldset label {
+  width: 108px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.form input[type='radio'] {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--border-color);
+}
+
+.form button {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--button-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+}
+
+.form button:hover {
+  background-color: var(--button-color-hover);
+}
